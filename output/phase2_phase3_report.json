@@ -1,0 +1,73 @@
+{
+  "dataset_source": "datasett11/student_resource/dataset",
+  "phase2_normalization": {
+    "train_source1": {
+      "total_records": 100000,
+      "unique_original_names": 90403,
+      "unique_normalized_names": 88612,
+      "names_changed_count": 100000,
+      "names_changed_pct": 100.0,
+      "unique_original_addrs": 99713,
+      "unique_normalized_addrs": 99713,
+      "addrs_changed_count": 100000,
+      "addrs_changed_pct": 100.0,
+      "empty_normalized_names_count": 0,
+      "empty_normalized_names_pct": 0.0,
+      "empty_normalized_addrs_count": 0,
+      "empty_normalized_addrs_pct": 0.0,
+      "colliding_normalized_name_keys": 1728
+    },
+    "train_source2": {
+      "total_records": 100000,
+      "unique_original_names": 98731,
+      "unique_normalized_names": 97243,
+      "names_changed_count": 98571,
+      "names_changed_pct": 98.57,
+      "unique_original_addrs": 96378,
+      "unique_normalized_addrs": 96206,
+      "addrs_changed_count": 96670,
+      "addrs_changed_pct": 96.67,
+      "empty_normalized_names_count": 0,
+      "empty_normalized_names_pct": 0.0,
+      "empty_normalized_addrs_count": 3330,
+      "empty_normalized_addrs_pct": 3.33,
+      "colliding_normalized_name_keys": 1198
+    },
+    "train_source3": {
+      "total_records": 100000,
+      "unique_original_names": 98835,
+      "unique_normalized_names": 97459,
+      "names_changed_count": 98263,
+      "names_changed_pct": 98.26,
+      "unique_original_addrs": 96444,
+      "unique_normalized_addrs": 96328,
+      "addrs_changed_count": 96648,
+      "addrs_changed_pct": 96.65,
+      "empty_normalized_names_count": 0,
+      "empty_normalized_names_pct": 0.0,
+      "empty_normalized_addrs_count": 3352,
+      "empty_normalized_addrs_pct": 3.352,
+      "colliding_normalized_name_keys": 1175
+    }
+  },
+  "phase3_blocking": {
+    "evaluated_s1_entities": 10000,
+    "total_true_matches": 34567,
+    "true_matches_survived_blocking": 31493,
+    "overall_blocking_recall_pct": 91.1071,
+    "total_true_s2_matches": 16752,
+    "s2_matches_survived": 15384,
+    "s2_blocking_recall_pct": 91.8338,
+    "total_true_s3_matches": 17815,
+    "s3_matches_survived": 16109,
+    "s3_blocking_recall_pct": 90.4238,
+    "total_candidate_pairs_generated": 394859,
+    "mean_candidates_per_s1": 39.49,
+    "median_candidates_per_s1": 50.0,
+    "max_candidates_per_s1": 50,
+    "zero_candidate_s1_count": 18,
+    "zero_candidate_s1_pct": 0.18,
+    "candidate_reduction_ratio_pct": 99.990886
+  },
+  "total_benchmark_runtime_seconds": 103.48
+}

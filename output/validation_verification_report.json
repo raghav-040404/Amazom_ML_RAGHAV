@@ -1,0 +1,156 @@
+{
+  "dataset_source": "datasett11/student_resource/dataset",
+  "optimal_threshold": 0.9,
+  "best_macro_f05": 0.9474,
+  "fine_threshold_sweep": [
+    {
+      "threshold": 0.9,
+      "macro_f05": 0.9474,
+      "macro_precision": 0.9701,
+      "macro_recall": 0.9026,
+      "pairwise_f05": 0.9868,
+      "pairwise_precision": 0.9859,
+      "pairwise_recall": 0.9905,
+      "singletons_total": 130,
+      "singletons_correct": 124,
+      "singleton_accuracy": 95.38
+    },
+    {
+      "threshold": 0.91,
+      "macro_f05": 0.9467,
+      "macro_precision": 0.9698,
+      "macro_recall": 0.9007,
+      "pairwise_f05": 0.987,
+      "pairwise_precision": 0.9866,
+      "pairwise_recall": 0.9886,
+      "singletons_total": 130,
+      "singletons_correct": 124,
+      "singleton_accuracy": 95.38
+    },
+    {
+      "threshold": 0.92,
+      "macro_f05": 0.9463,
+      "macro_precision": 0.9701,
+      "macro_recall": 0.8985,
+      "pairwise_f05": 0.9872,
+      "pairwise_precision": 0.9874,
+      "pairwise_recall": 0.9863,
+      "singletons_total": 130,
+      "singletons_correct": 124,
+      "singleton_accuracy": 95.38
+    },
+    {
+      "threshold": 0.93,
+      "macro_f05": 0.9464,
+      "macro_precision": 0.9708,
+      "macro_recall": 0.8967,
+      "pairwise_f05": 0.9875,
+      "pairwise_precision": 0.9884,
+      "pairwise_recall": 0.9841,
+      "singletons_total": 130,
+      "singletons_correct": 124,
+      "singleton_accuracy": 95.38
+    },
+    {
+      "threshold": 0.94,
+      "macro_f05": 0.9466,
+      "macro_precision": 0.9716,
+      "macro_recall": 0.8956,
+      "pairwise_f05": 0.9877,
+      "pairwise_precision": 0.989,
+      "pairwise_recall": 0.9824,
+      "singletons_total": 130,
+      "singletons_correct": 125,
+      "singleton_accuracy": 96.15
+    },
+    {
+      "threshold": 0.95,
+      "macro_f05": 0.9466,
+      "macro_precision": 0.9729,
+      "macro_recall": 0.8921,
+      "pairwise_f05": 0.9882,
+      "pairwise_precision": 0.9908,
+      "pairwise_recall": 0.9779,
+      "singletons_total": 130,
+      "singletons_correct": 127,
+      "singleton_accuracy": 97.69
+    },
+    {
+      "threshold": 0.96,
+      "macro_f05": 0.9447,
+      "macro_precision": 0.9722,
+      "macro_recall": 0.8874,
+      "pairwise_f05": 0.9875,
+      "pairwise_precision": 0.9912,
+      "pairwise_recall": 0.9729,
+      "singletons_total": 130,
+      "singletons_correct": 127,
+      "singleton_accuracy": 97.69
+    },
+    {
+      "threshold": 0.97,
+      "macro_f05": 0.9437,
+      "macro_precision": 0.974,
+      "macro_recall": 0.8798,
+      "pairwise_f05": 0.9877,
+      "pairwise_precision": 0.9939,
+      "pairwise_recall": 0.9635,
+      "singletons_total": 130,
+      "singletons_correct": 128,
+      "singleton_accuracy": 98.46
+    },
+    {
+      "threshold": 0.98,
+      "macro_f05": 0.9377,
+      "macro_precision": 0.9743,
+      "macro_recall": 0.8594,
+      "pairwise_f05": 0.985,
+      "pairwise_precision": 0.9971,
+      "pairwise_recall": 0.9393,
+      "singletons_total": 130,
+      "singletons_correct": 130,
+      "singleton_accuracy": 100.0
+    },
+    {
+      "threshold": 0.99,
+      "macro_f05": 0.9237,
+      "macro_precision": 0.9687,
+      "macro_recall": 0.8294,
+      "pairwise_f05": 0.9778,
+      "pairwise_precision": 0.9978,
+      "pairwise_recall": 0.905,
+      "singletons_total": 130,
+      "singletons_correct": 130,
+      "singleton_accuracy": 100.0
+    }
+  ],
+  "group_breakdown": {
+    "singletons_0_matches": {
+      "count_s1_entities": 130,
+      "percentage_of_val_set": 5.42,
+      "exact_prediction_accuracy_pct": 95.38,
+      "false_positive_rate_pct": 4.62,
+      "mean_f05": 0.9538,
+      "mean_precision": 0.9538,
+      "mean_recall": 0.9538
+    },
+    "single_1_match": {
+      "count_s1_entities": 127,
+      "percentage_of_val_set": 5.29,
+      "exact_prediction_accuracy_pct": 81.1,
+      "false_positive_rate_pct": 5.51,
+      "mean_f05": 0.8373,
+      "mean_precision": 0.8346,
+      "mean_recall": 0.8583
+    },
+    "multi_2plus_matches": {
+      "count_s1_entities": 2143,
+      "percentage_of_val_set": 89.29,
+      "exact_prediction_accuracy_pct": 71.77,
+      "false_positive_rate_pct": 4.15,
+      "mean_f05": 0.9536,
+      "mean_precision": 0.9791,
+      "mean_recall": 0.9021
+    }
+  }
+}
